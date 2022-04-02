@@ -19,7 +19,7 @@ Lorsque vous utilisez OperaToBot ou tout autre service, nos serveurs enregistren
 
 ### Informations personnelles
 Nous avons accès à votre profil Discord ainsi qu'à toute autre information que vous nous fournissez à l'utilisation du service. **Nous n'avons pas accès aux informations suivantes :**
-- Messages envoyés sur les serveurs Discord, ne mentionnant pas le bot et en dehors de toute commande.
+- Contenu textuel des messages envoyés sur les serveurs Discord, ne mentionnant pas le bot et en dehors de toute commande.
 - Votre adresse mail, vos informations de facturation ou les autres détails de votre compte Discord protégés par Discord.
 
 ### Intérêt légitime à l'utilisation de vos informations personnelles

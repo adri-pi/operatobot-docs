@@ -1,6 +1,7 @@
 branding:
   logo: static/logo.png
   logoDark: static/logo_dark.png
+  label: Documentation
 favicon: static/fav.png
 footer: 
   copyright: "Tous droits réservés."

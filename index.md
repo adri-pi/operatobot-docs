@@ -1,11 +1,9 @@
 ---
 author: Adrien
 description: Site officiel d'OperaToBot, un bot Discord français.
-icon: navigation
-label: pour le côté
-order: -1 
-route: url custom
-visibility: public | hidden
+icon: home
+label: Bienvenue
+order: -1
 ---
 
 # Bienvenue
@@ -13,7 +11,7 @@ visibility: public | hidden
 [![Discord Bots](https://top.gg/api/widget/servers/503954760139800577.svg)](https://top.gg/bot/503954760139800577) [![Discord Bots](https://top.gg/api/widget/upvotes/503954760139800577.svg)](https://top.gg/bot/503954760139800577)
 
 ## Le projet OperaToBot
-OperaToBot est un bot Discord français multifonctions né en 2018. Après de nombreuses heures de développement, afin d'être toujours plus ergonomique pour ses utilisateurs, il embarque aujourd'hui, sous sa troisième version majeure, une trentaine de commandes : administration, modération, jeux, recherche d'images... Il y aura toujours une fonction qui vous plaira sur OperaToBot !
+OperaToBot est un bot Discord français multifonctions né en 2018. Après de nombreuses heures de développement, afin d'être toujours plus ergonomique pour ses utilisateurs, il embarque aujourd'hui, sous sa troisième version majeure, une trentaine de commandes : administration, modération, jeux, recherche d'images... **Il y aura toujours une fonction qui vous plaira sur OperaToBot !**
 
 ## Fonctionnalités principales
 ### Le BoutonRole
