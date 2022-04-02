@@ -1,4 +1,19 @@
 branding:
   logo: static/logo.png
-  logoDark: static/logoDark.png
-  
+  logoDark: static/logo_dark.png
+favicon: static/fav.png
+footer: 
+  copyright: "Tous droits réservés."
+links:
+  - text: Documentation
+    link: https://operatobot.app/docs
+    icon: book
+  - text: Serveur de support
+    link: https://operatobot.app/discord
+    icon: static/Discord-Logo-White.png
+meta:
+  title: " - OperaToBot"
+search:
+  noResultsFoundMsg: Aucun résultat.
+  placeholder: Rechercher
+url: operatobot.app
