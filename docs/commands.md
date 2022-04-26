@@ -50,12 +50,6 @@ Créer ou consulter l'état d'un compte OperaToBank
 /bank (utilisateur)
 ```
 
-### `bet`
-Parier sur le résultat d'un lancer de dé.
-```
-/bet [montant] [chiffre]
-```
-
 ### `buy`
 Effectuer un achat sur le magasin OperaToShop.
 ```
@@ -138,6 +132,15 @@ Répond par oui ou non de manière aléatoire à une question.
 Jouer au jeu des allumettes face à un autre utilisateur.
 ```
 /8ball [membre] (nombre d'allumettes) 
+```
+
+### `bet`
+!!!
+Nécessite un compte OperaToBank.
+!!!
+Parier sur le résultat d'un lancer de dé.
+```
+/bet [montant] [chiffre]
 ```
 
 ### `choose`
