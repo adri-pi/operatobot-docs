@@ -32,7 +32,14 @@ Si aucun de ces points n'explique le dysfonctionnement, veuillez rejoindre le [s
 Il est probable que les commandes soient désactivées via les modules : vérifiez-le avec `/setup modules`. Il est aussi possible que le bot n'ait pas les permissions nécessaires à son bon fonctionnement : en effet, il a besoin de la permission Administrateur.
 
 ## Comment paramétrer le bot ?
-[!ref](docs/settings)
+[!ref](/docs/settings)
+
+## Qu'est-ce que la permission *Modérer des membres* ?
+Elle peut aussi apparaître sous le nom *Exclure temporairement des membres* dans Discord : il s'agit de la permission qui permet d'utiliser la fonctionnalité interne de Discord pour exclure des membres du serveur de façon temporaire.
+
+## Qu'est ce qu'un identifiant ?
+Un identifiant sur Discord est une chaîne de chiffres unique qui permet d'identifier un message, un utilisateur, un salon, un serveur... [En savoir plus.](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message-)
+Dans cette documentation, un identifiant peut aussi désigner un numéro ou une chaîne de caractère permettant de désigner différentes entités selon le contexte (par exemple, les boosts et items du magasin OperaToShop).
 
 ## Comment soutenir le projet ?
 Le développeur n'accepte pas les donations financières pour le moment. Cependant, vous pouvez voter pour le bot sur top.gg ou parler du projet autour de vous pour le soutenir !
