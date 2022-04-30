@@ -1,5 +1,8 @@
 ---
-author: Adrien
+
+label: Paramétrage du bot
+icon: gear
+order: -10
 description: Liste des paramètres personnalisables pour utiliser OperaToBot sur vos serveurs.
 ---
 

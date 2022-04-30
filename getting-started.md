@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Comment utiliser OperaToBot pour la première fois ? Tout est détaillé ici !
 icon: chevron-right
 label: Démarrer avec OperaToBot

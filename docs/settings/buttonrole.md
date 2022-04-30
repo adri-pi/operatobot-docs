@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Laissez les membres gérer certains de leurs rôles grâce à des boutons.
 icon: people
 label: BoutonRôle
@@ -24,9 +24,9 @@ Vous pouvez paramétrer l'attribution de jusqu'à 25 rôles par message (1 par b
 Le bot **ne vérifie pas** que les rôles attribués n'ont pas, par exemple, la permission *Administrateur*. Vérifiez donc que les rôles que vous souhaitez paramétrer n'aient pas de permissions sensibles.
 !!!
 
-## Paramétrage 
+## Paramétrage 
 
-### Avec la commande `set`
+### Avec la commande `set`
 !!!warning
 Avec cette commande, vous ne pourrez paramétrer qu'un seul rôle par message à cause de sa syntaxe. Pour avoir plusieurs rôles par message, utilisez la commande `setup`, décrite plus bas sur cette page.
 !!!

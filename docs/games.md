@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Jouez à des jeux sur Discord avec OperaToBot !
 icon: trophy
 label: Jeux
@@ -52,14 +52,19 @@ Vous vous promenez sur une grille de 100 cellules. Celles-ci peuvent contenir :
 - Un portefeuille vide (10%)
 - Un portefeuille rempli d'OperaToCoins (15%)
 - Un billet (15%)
+
 Le contenu des cellules ne change pas au cours de la partie (sauf action de votre part : après ramassage, un portefeuille plein d'argent devient vide).
+
 Avant de rentrer sur la map, vous devez déposer 500 OperaToCoins à l'entrée, que vous ne récupérerez que si vous sortez vivant de la map (chose que vous pouvez décider de faire à tout moment de la partie). Vous serez ensuite placé sur une cellule vide et la partie commence alors.
+
 A chaque instant, vous savez si les cellules autour de vous contiennent un piège ou de l'argent, mais vous n'avez pas d'informations sur leurs emplacements exacts. Par exemple, si une mine ou un portefeuille piégé se trouve dans la cellule qui est devant vous, vous aurez l'information "il y a une cellule piégée autour de votre position", mais pas l'emplacement de celle-ci. 
+
 Vous pouvez bouger librement sur la map. Voici ce que le contenu des cellules a comme effets sur vous :
 - Une cellule vide ne fait rien.
 - Une mine vous tue : vous perdez tout l'argent récolté pendant votre partie ainsi que les 500 OTC déposés au début de la partie.
 - Lorsque vous tombez sur de l'argent, vous le ramassez et le gagnez si vous parvenez à sortir vivant de la mine.
 - Lorsque vous tombez sur un portefeuille, vous ne savez pas ce qu'il contient. Seule l'ouverture (facultative) de celui-ci aura un effet : un piège vous tue comme une mine, un portefeuille vide ne fait rien et un portefeuille rempli d'argent vous enrichit, toujours sous la condition que vous sortiez à temps.
+
 A la fin, lorsque vous décidez de sortir (si vous n'êtes pas mort avant), vous remportez tout l'argent récolté sur la map et vous récupérez vos 500 OTC.
 
 ### Jouer
@@ -67,13 +72,13 @@ A la fin, lorsque vous décidez de sortir (si vous n'êtes pas mort avant), vous
 /moneysweeper
 ```
 
-## Pierre-feuille-ciseaux
+## Pierre-feuille-ciseaux
 ### Règles
 !!!
 Ce jeu se joue seul contre le bot (pour l'instant !)
 !!!
 La pierre bat les ciseaux, qui battent la feuille, qui bat la pierre.
-### Jouer
+### Jouer
 ```
 /rps [paper/rock/scissors]
 ```

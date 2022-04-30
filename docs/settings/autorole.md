@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Ajoutez des rôles automatiquement à tous les nouveaux arrivants de votre serveur.
 icon: person-add
 label: Rôles automatiques
@@ -25,11 +25,11 @@ Vous pouvez paramétrer l'attribution de jusqu'à 5 rôles par serveur.
 Le bot **ne vérifie pas** que les rôles attribués n'ont pas, par exemple, la permission *Administrateur*. Vérifiez donc que les rôles que vous souhaitez paramétrer n'aient pas de permissions sensibles.
 !!!
 
-## Paramétrage 
+## Paramétrage 
 !!!warning
 L'usage des commandes suivantes écrase tout paramétrage précédent des rôles automatiques.
 !!!
-### Avec la commande `set`
+### Avec la commande `set`
 #### Syntaxe
 ```
 /set autorole [rôle 1] (rôle 2) (rôle 3) (rôle 4) (rôle 5)

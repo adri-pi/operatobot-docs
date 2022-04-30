@@ -1,21 +1,17 @@
 branding:
   logo: static/logo.png
   logoDark: static/logo_dark.png
-  label: Documentation
 favicon: static/fav.png
 footer: 
   copyright: "Tous droits réservés."
 links:
-  - text: Documentation
-    link: https://operatobot.app/docs
-    icon: book
   - text: Inviter OperaToBot
     link: https://operatobot.app/invite
     icon: rocket
   - text: Serveur de support
     link: https://operatobot.app/discord
-    icon: static/Discord-Logo-White.png
-  - text: Statut du service
+    icon: /static/Discord-Logo-White.png
+  - text: Statut des services
     link: https://status.operatobot.app/
     icon: graph
 meta:

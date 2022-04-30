@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Notes de mise à jour des services OperaToBot
 icon: history
 label: Notes de mise à jour
@@ -98,9 +98,9 @@ Cette page contient toutes les notes de mise à jour du bot, depuis la version 1
 - Transfert de la base de données du VCS et mise à jour
 - Bugs corrigés
 
-## Version 1.3.2
+## Version 1.3.2
 *Déployée le 19/08/2019.*
-## Modifié 
+## Modifié 
 - Bugs corrigés
 
 ## Version 1.3.1
@@ -134,14 +134,14 @@ Cette page contient toutes les notes de mise à jour du bot, depuis la version 1
 *Déployée le 09/06/2019.*
 ### Ajouté
 - Commande `status`
-### Modifié
+### Modifié
 - Ajout de détails sur la commande `botinfo`
 
 ## Version 1.1.1
 *Déployée le 30/05/2019.*
 ### Ajouté
 - Badge *Modérateur* sur le VCS pour les membres du support.
-### Modifié
+### Modifié
 - Le `help` de la commande `set` était erroné et a été corrigé.
 - Correction d'un bug sur la commande `set prefix`
 
@@ -152,7 +152,7 @@ Cette page contient toutes les notes de mise à jour du bot, depuis la version 1
 
 ## Version 1.0.2
 *Déployée le 27/04/2019.*
-### Modifié
+### Modifié
 - Correction d'un bug sur la commande `userinfo` qui ne fonctionnait pas correctement
 - Correction du bug du jeu de la commande `allumettes` sur le message qui informe qu'aucune réponse n'a été reçue au bout d'une minute de la part d'un joueur
 

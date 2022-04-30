@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Activez ou désactivez les fonctionnalités d'OperaToBot.
 icon: multi-select
 label: Modules OperaToBot
@@ -19,9 +19,10 @@ Lorsqu'une commande est utilisée sur votre serveur, si le module dont elle fait
 
 !!!
 Certains modules ne peuvent être désactivés, car sont absolument nécessaires au bon fonctionnement du bot. C'est le cas du module *Administration*, contenant les commandes de paramétrage comme `set`.
+!!!
 
-## Paramétrage 
-### Avec la commande `set`
+## Paramétrage 
+### Avec la commande `set`
 #### Syntaxe
 ```
 /set modules [activation] [modules]

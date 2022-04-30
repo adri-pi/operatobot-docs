@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Une question ? Un problème avec le bot ? Avant de demander au support, lisez la FAQ !
 icon: question
 label: FAQ
@@ -34,7 +34,7 @@ Il est probable que les commandes soient désactivées via les modules : vérifi
 ## Comment paramétrer le bot ?
 [!ref](/docs/settings)
 
-## Qu'est-ce que la permission *Modérer des membres* ?
+## Qu'est-ce que la permission *Modérer des membres* ?
 Elle peut aussi apparaître sous le nom *Exclure temporairement des membres* dans Discord : il s'agit de la permission qui permet d'utiliser la fonctionnalité interne de Discord pour exclure des membres du serveur de façon temporaire.
 
 ## Qu'est ce qu'un identifiant ?

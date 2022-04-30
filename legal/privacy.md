@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 icon: shield-lock
 label: Politique de confidentialité
 order: -99

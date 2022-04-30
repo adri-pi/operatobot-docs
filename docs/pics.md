@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Recherche d'images et de GIF, sur Discord.
 icon: image
 label: Recherche d'images
@@ -27,5 +27,5 @@ Par exemple, `/giphy chats` renverra des GIF de chats.
 
 
 !!!success
-Après avoir lancé l'une ou l'autre des commandes, vous pourrez naviguer parmi des dizaines de résultats grâce aux boutons situés sous le messages renvoyé.
+Après avoir lancé l'une ou l'autre des commandes, vous pourrez naviguer parmi des dizaines de résultats grâce aux boutons situés sous le message renvoyé.
 !!!

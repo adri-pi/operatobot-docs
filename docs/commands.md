@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Liste des commandes OperaToBot
 icon: list-unordered
 label: Commandes
@@ -238,16 +238,16 @@ Si le nombre de messages indiqués est strictement supérieur au nombre de messa
 ### `unmute`
 Retire le statut muet d'un membre.
 ```
-/unmute [membre] (raison)
+/unmute [membre] (raison)
 ```
 
 ### `warn`
 Gérer les avertissements d'un membre
 ``` Ajout d'un avertissement
-/warn add [membre] [raison]
+/warn add [membre] [raison]
 ```
 ``` Retrait d'un avertissement
-/warn remove [membre] [numéro de l'avertissement]
+/warn remove [membre] [numéro de l'avertissement]
 ```
 ``` Retrait de tous les avertissements
 /warn add [membre]

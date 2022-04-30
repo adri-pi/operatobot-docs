@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Enregistrez les activités les plus importantes du serveur, telles que les modifications de paramètres du bot ou les actes de modération.
 icon: note
 label: Logs
@@ -25,11 +25,11 @@ Les deux paramètres sont indépendants ; ainsi, vous pouvez envoyer les logs de
 ### Logs de paramétrage
 Quand une modification de paramètre du bot est effectuée, celui-ci envoie un message dans le salon choisi, avec le nom du paramètre et les modifications apportées à celui-ci.
 
-## Paramétrage 
+## Paramétrage 
 !!!warning
 L'usage des commandes suivantes écrase tout paramétrage précédent des salons de log.
 !!!
-### Avec la commande `set`
+### Avec la commande `set`
 #### Syntaxe
 ``` Logs de modération
 /set modlogs [salon]

@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Principales fonctionnalités d'OperaToBot
 icon: list-unordered
 label: Fonctionnalités

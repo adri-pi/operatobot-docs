@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 icon: repo
 label: Conditions générales d'utilisation
 order: -98

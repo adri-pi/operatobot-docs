@@ -1,5 +1,5 @@
 ---
-author: Adrien
+
 description: Avertissez vos membres de l'arrivée ou du départ de l'un d'entre eux, et souhaitez la bienvenue aux nouveaux venus.
 icon: arrow-switch
 label: Messages de bienvenue et de départ
@@ -22,11 +22,11 @@ Quand un membre quitte le serveur, les autres en sont informés grâce au messag
 Les deux paramètres sont indépendants ; ainsi, vous pouvez envoyer les messages d'arrivée dans un autre salon que les messages de départ.
 !!!
 
-## Paramétrage 
+## Paramétrage 
 !!!warning
 L'usage des commandes suivantes écrase tout paramétrage précédent des messages d'arrivée ou de départ selon le cas.
 !!!
-### Avec la commande `set`
+### Avec la commande `set`
 #### Syntaxe
 ```
 /set [welcome/goodbye] [salon] [message]
