@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/fav.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=2.2.704626564241" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.704633784824" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704626564241" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704633784824" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704626564241" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704633784824" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -52,7 +52,7 @@
                                 <img class="max-h-10 dark:hidden md:inline-block" src="/static/logo.png">
                                 <img class="max-h-10 hidden dark:inline-block" src="/static/logo_dark.png">
                             </span>
-                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Documentation</span>
+                        </a>
                     </div>
         
                     <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -62,16 +62,6 @@
                     <!-- Top Nav -->
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
-                            <li class="md:mr-6">
-                                <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/docs">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                        <g fill="currentColor">
-                                            <path fill-rule="evenodd" d="M0 3.75A.75.75 0 01.75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.496 4.496 0 0115.75 3h7.5a.75.75 0 01.75.75v15.063a.75.75 0 01-.755.75l-7.682-.052a3 3 0 00-2.142.878l-.89.891a.75.75 0 01-1.061 0l-.902-.901a3 3 0 00-2.121-.879H.75a.75.75 0 01-.75-.75v-15zm11.247 3.747a3 3 0 00-3-2.997H1.5V18h6.947a4.5 4.5 0 012.803.98l-.003-11.483zm1.503 11.485V7.5a3 3 0 013-3h6.75v13.558l-6.927-.047a4.5 4.5 0 00-2.823.971z"/>
-                                        </g>
-                                    </svg>
-                                    <span>Documentation</span>
-                                </a>
-                            </li>
                             <li class="md:mr-6">
                                 <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/invite">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
@@ -92,7 +82,7 @@
                                             <path d="M2.5 2.75a.75.75 0 00-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 000-1.5H2.5V2.75z"/><path d="M22.28 7.78a.75.75 0 00-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 00-1.06 0l-6 6a.75.75 0 101.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 001.06 0l6.25-6.25z"/>
                                         </g>
                                     </svg>
-                                    <span>Statut du service</span>
+                                    <span>Statut des services</span>
                                 </a>
                             </li>
                         </ul>
@@ -171,16 +161,13 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/docs">Documentation</a>
-                                    </li>
-                                    <li class="mr-6">
                                         <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/invite">Inviter OperaToBot</a>
                                     </li>
                                     <li class="mr-6">
                                         <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/discord">Serveur de support</a>
                                     </li>
                                     <li class="mr-6">
-                                        <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://status.operatobot.app/">Statut du service</a>
+                                        <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://status.operatobot.app/">Statut des services</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -210,18 +197,6 @@
         <span>Jeux OperaToBot</span>
     </h1>
 </doc-anchor-target>
-<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
-    <div class="flex items-center">
-        <div>By</div>
-        <div class="ml-2 flex items-center">
-          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
-            <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" fill="white"><g><rect width="2rem" height="1.7rem" fill="#c5c5c5"/><circle r="0.44rem" cy="0.83rem" cx="1rem"/><ellipse ry="0.96rem" rx="0.77rem" cy="2.15rem" cx="1rem"/></g></svg>
-          </div>
-          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350">Adrien</div>
-        </div>
-    </div>
-</div>
-
 <p>Avec OperaToBot, vous trouverez de nombreux jeux qui vous permettront de vous amuser sur Discord, seul ou avec vos amis !</p>
 <doc-anchor-target id="le-jeu-des-allumettes-de-nim">
     <h2>
@@ -345,17 +320,19 @@ Vous vous promenez sur une grille de 100 cellules. Celles-ci peuvent contenir :<
 <li>Un portefeuille piégé (10%)</li>
 <li>Un portefeuille vide (10%)</li>
 <li>Un portefeuille rempli d&#x27;OperaToCoins (15%)</li>
-<li>Un billet (15%)
-Le contenu des cellules ne change pas au cours de la partie (sauf action de votre part : après ramassage, un portefeuille plein d&#x27;argent devient vide).
-Avant de rentrer sur la map, vous devez déposer 500 OperaToCoins à l&#x27;entrée, que vous ne récupérerez que si vous sortez vivant de la map (chose que vous pouvez décider de faire à tout moment de la partie). Vous serez ensuite placé sur une cellule vide et la partie commence alors.
-A chaque instant, vous savez si les cellules autour de vous contiennent un piège ou de l&#x27;argent, mais vous n&#x27;avez pas d&#x27;informations sur leurs emplacements exacts. Par exemple, si une mine ou un portefeuille piégé se trouve dans la cellule qui est devant vous, vous aurez l&#x27;information &quot;il y a une cellule piégée autour de votre position&quot;, mais pas l&#x27;emplacement de celle-ci.
-Vous pouvez bouger librement sur la map. Voici ce que le contenu des cellules a comme effets sur vous :</li>
+<li>Un billet (15%)</li>
+</ul>
+<p>Le contenu des cellules ne change pas au cours de la partie (sauf action de votre part : après ramassage, un portefeuille plein d&#x27;argent devient vide).</p>
+<p>Avant de rentrer sur la map, vous devez déposer 500 OperaToCoins à l&#x27;entrée, que vous ne récupérerez que si vous sortez vivant de la map (chose que vous pouvez décider de faire à tout moment de la partie). Vous serez ensuite placé sur une cellule vide et la partie commence alors.</p>
+<p>A chaque instant, vous savez si les cellules autour de vous contiennent un piège ou de l&#x27;argent, mais vous n&#x27;avez pas d&#x27;informations sur leurs emplacements exacts. Par exemple, si une mine ou un portefeuille piégé se trouve dans la cellule qui est devant vous, vous aurez l&#x27;information &quot;il y a une cellule piégée autour de votre position&quot;, mais pas l&#x27;emplacement de celle-ci.</p>
+<p>Vous pouvez bouger librement sur la map. Voici ce que le contenu des cellules a comme effets sur vous :</p>
+<ul>
 <li>Une cellule vide ne fait rien.</li>
 <li>Une mine vous tue : vous perdez tout l&#x27;argent récolté pendant votre partie ainsi que les 500 OTC déposés au début de la partie.</li>
 <li>Lorsque vous tombez sur de l&#x27;argent, vous le ramassez et le gagnez si vous parvenez à sortir vivant de la mine.</li>
-<li>Lorsque vous tombez sur un portefeuille, vous ne savez pas ce qu&#x27;il contient. Seule l&#x27;ouverture (facultative) de celui-ci aura un effet : un piège vous tue comme une mine, un portefeuille vide ne fait rien et un portefeuille rempli d&#x27;argent vous enrichit, toujours sous la condition que vous sortiez à temps.
-A la fin, lorsque vous décidez de sortir (si vous n&#x27;êtes pas mort avant), vous remportez tout l&#x27;argent récolté sur la map et vous récupérez vos 500 OTC.</li>
+<li>Lorsque vous tombez sur un portefeuille, vous ne savez pas ce qu&#x27;il contient. Seule l&#x27;ouverture (facultative) de celui-ci aura un effet : un piège vous tue comme une mine, un portefeuille vide ne fait rien et un portefeuille rempli d&#x27;argent vous enrichit, toujours sous la condition que vous sortiez à temps.</li>
 </ul>
+<p>A la fin, lorsque vous décidez de sortir (si vous n&#x27;êtes pas mort avant), vous remportez tout l&#x27;argent récolté sur la map et vous récupérez vos 500 OTC.</p>
 <doc-anchor-target id="jouer-2">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#jouer-2">#</doc-anchor-trigger>
@@ -365,7 +342,12 @@ A la fin, lorsque vous décidez de sortir (si vous n&#x27;êtes pas mort avant),
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/moneysweeper</code></pre>
 </doc-codeblock></div>
-<p>## Pierre-feuille-ciseaux</p>
+<doc-anchor-target id="pierre-feuille-ciseaux">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pierre-feuille-ciseaux">#</doc-anchor-trigger>
+        <span>Pierre-feuille-ciseaux</span>
+    </h2>
+</doc-anchor-target>
 <doc-anchor-target id="règles-3">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#règles-3">#</doc-anchor-trigger>
@@ -389,8 +371,13 @@ A la fin, lorsque vous décidez de sortir (si vous n&#x27;êtes pas mort avant),
         </div>
     </div>
 </div>
-<p>La pierre bat les ciseaux, qui battent la feuille, qui bat la pierre.
-### Jouer</p>
+<p>La pierre bat les ciseaux, qui battent la feuille, qui bat la pierre.</p>
+<doc-anchor-target id="jouer-3">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#jouer-3">#</doc-anchor-trigger>
+        <span>Jouer</span>
+    </h3>
+</doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/rps [paper/rock/scissors]</code></pre>
 </doc-codeblock></div>
