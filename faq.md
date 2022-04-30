@@ -13,7 +13,7 @@ En cliquant sur le bouton suivant :
 
 [!button Inviter le bot](invite.md)
 !!!
-**Ne désactivez pas la permission** ***Administrateur*****, elle est essentielle au bon fonctionnement du bot.** Veillez à élever le rôle du bot au-dessus des rôles à contrôler (notamment pour le BoutonRole ou les commandes de modération).
+**Ne désactivez pas la permission** ***Administrateur*** **qui est essentielle au bon fonctionnement du bot.** Veillez à élever le rôle du bot au-dessus des rôles à contrôler (notamment pour le BoutonRole ou les commandes de modération).
 !!!
 
 ## J'ai lancé une commande, mais celle-ci ne répond pas ou ne fonctionne pas correctement. Pourquoi ?

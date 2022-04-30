@@ -77,3 +77,23 @@ Les boosts vous permettent de gagner en agilité pour voler, de vous protéger c
 ``` Voir son inventaire
 /inventory (hide)
 ```
+
+### Liste des items et boosts disponibles
+#### Protection contre le vol [!badge variant="info" text="Boost"]
+*Identifiant : `protectRob`*
+Ce boost diminue les chances pour les autres utilisateurs de réussir un [vol](#voler-un-autre-utilisateur) dont vous seriez la victime.
+
+#### Boost du travail [!badge variant="info" text="Boost"]
+*Identifiant : `workBoost`*
+Ce boost augmente votre salaire moyen reçu lors de l'utilisation de la commande [`work`](#travailler).
+
+#### Agilité de vol [!badge variant="info" text="Boost"]
+*Identifiant : `robAgility`*
+Ce boost augmente vos chances de réussite lors de l'utilisation de la commande [`rob`](#voler-un-autre-utilisateur).
+
+### Calcul du prix des boosts
+Le prix $p$ d'un boost respecte la formule suivante :
+$$
+p = \lfloor \frac{\exp(u)}{(u+1)^3} + u^2 \rfloor 
+$$ 
+où $u$ est le niveau actuel du boost (0 par défaut, entier incrémenté à chaque achat de telle manière que $u+1$ est le niveau de boost acheté).
