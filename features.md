@@ -44,7 +44,7 @@ Vous pouvez rechercher des memes aléatoires avec [la commande `/meme`](docs/com
 
 ## Pratique
 ### Recherche d'images
-Vous pouvez effectuer des recherches sur [Imgur](imgur.com) ou [Giphy](giphy.com), directement depuis Discord, avec OperaToBot !
+Vous pouvez effectuer des recherches sur [Imgur](http://imgur.com) ou [Giphy](http://giphy.com), directement depuis Discord, avec OperaToBot !
 [!ref](docs/pics.md)
 
 ### Statistiques

@@ -12,14 +12,15 @@ order: -10
 En cliquant sur le bouton suivant : 
 
 [!button Inviter le bot](invite.md)
-
-Ne désactivez pas les permissions administrateur, elles sont essentielles au bon fonctionnement du bot. Veillez à élever le rôle du bot au-dessus des rôles à contrôler (notamment pour le BoutonRole ou les commandes de modération).
+!!!
+**Ne désactivez pas la permission** ***Administrateur*****, elle est essentielle au bon fonctionnement du bot.** Veillez à élever le rôle du bot au-dessus des rôles à contrôler (notamment pour le BoutonRole ou les commandes de modération).
+!!!
 
 ## J'ai lancé une commande, mais celle-ci ne répond pas ou ne fonctionne pas correctement. Pourquoi ?
 Vérifiez que vous avez bien indiqué des arguments corrects, et que vous avez les bonnes permissions. Si c'est le cas, mais que la commande ne fonctionne pas ou mal, rejoignez le [serveur de support](support.md) et signalez le problème dans le salon #bugs, en précisant la commande lancée avec les arguments indiqués.
 
 ## Je vois un message "Echec de l'interaction", mais la commande fonctionne tout de même. Pourquoi ?
-**C'est un bug.** Signalez-le sur le [serveur de support](support.md) dans le salon #bugs, en précisant la commande lancée, avec les arguments indiqués, ainsi qu'un screenshot du message.
+**C'est un bug.** Signalez-le sur le [serveur de support](support.md) dans le salon #bugs, en précisant la commande lancée, avec les arguments indiqués, ainsi qu'une capture d'écran du message.
 
 ## Le BoutonRole ne fonctionne pas lorsque j'appuie sur le bouton. Pourquoi ?
 Plusieurs raisons possibles : 
@@ -29,7 +30,7 @@ Plusieurs raisons possibles :
 Si aucun de ces points n'explique le dysfonctionnement, veuillez rejoindre le [serveur de support](support.md) et indiquer votre problème.
 
 ## De nombreuses commandes ne répondent pas sur mon serveur. Que faire ?
-Il est probable que les commandes soient désactivées via les modules : vérifiez-le avec `/setup modules`. Il est aussi possible que le bot n'ait pas les permissions nécessaires à son bon fonctionnement : en effet, il a besoin de la permission Administrateur.
+Il est probable que les commandes soient désactivées via les modules : vérifiez-le avec `/setup modules`. Il est aussi possible que le bot n'ait pas les permissions nécessaires à son bon fonctionnement : en effet, **il a besoin de la permission** ***Administrateur***.
 
 ## Comment paramétrer le bot ?
 [!ref](/docs/settings)
@@ -39,6 +40,7 @@ Elle peut aussi apparaître sous le nom *Exclure temporairement des membres* dan
 
 ## Qu'est ce qu'un identifiant ?
 Un identifiant sur Discord est une chaîne de chiffres unique qui permet d'identifier un message, un utilisateur, un salon, un serveur... [En savoir plus.](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message-)
+
 Dans cette documentation, un identifiant peut aussi désigner un numéro ou une chaîne de caractère permettant de désigner différentes entités selon le contexte (par exemple, les boosts et items du magasin OperaToShop).
 
 ## Comment soutenir le projet ?

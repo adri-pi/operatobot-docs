@@ -1,9 +1,16 @@
 branding:
   logo: static/logo.png
   logoDark: static/logo_dark.png
-favicon: static/fav.png
+favicon: static/fav.ico
 footer: 
   copyright: "Tous droits réservés."
+  links:
+  - text: Conditions générales d'utilisation
+    link: legal/tos.md
+    icon: law
+  - text: Politique de confidentialité
+    link: legal/privacy.md
+    icon: shield-lock
 links:
   - text: Inviter OperaToBot
     link: https://operatobot.app/invite

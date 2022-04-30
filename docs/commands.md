@@ -150,7 +150,7 @@ Laisse le bot faire un choix parmi les différentes propositions.
 ```
 
 ### `die`
-Lance un dé à *n* faces, *n* étant un entier strictement positif (*n*=6 par défaut).
+Lance un dé à $n$ faces, $n$ étant un entier strictement positif ($n=6$ par défaut).
 ```
 /die [n]
 ```
