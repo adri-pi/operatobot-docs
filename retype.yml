@@ -9,7 +9,7 @@ links:
     link: https://operatobot.app/invite
     icon: rocket
   - text: Serveur de support
-    link: https://operatobot.app/discord
+    link: https://operatobot.app/support
     icon: /static/Discord-Logo-White.svg
   - text: Statut des services
     link: https://status.operatobot.app/
