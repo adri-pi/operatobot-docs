@@ -10,7 +10,7 @@ links:
     icon: rocket
   - text: Serveur de support
     link: https://operatobot.app/discord
-    icon: /static/Discord-Logo-White.png
+    icon: /static/Discord-Logo-White.svg
   - text: Statut des services
     link: https://status.operatobot.app/
     icon: graph

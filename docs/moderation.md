@@ -26,7 +26,7 @@ Ceci enregistre un avertissement dans la base de données, envoie un message pri
 /warn remove [@membre] [numéro]
 ```
 Ceci retire l'avertissement mentionné de la base de données et envoie un log dans le salon paramétré pour les logs de modération, s'il existe.
-Le numéro de l'avertissement est celui qui s'affiche dans la [liste des avertissements](#Lister_les_avertissements_dun_membre)
+Le numéro de l'avertissement est celui qui s'affiche dans la [liste des avertissements](#lister-les-avertissements-dun-membre)
 
 ### Retirer tous les avertissements d'un membre
 ```
