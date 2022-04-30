@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/fav.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=2.2.704633845308" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.704634030461" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704633845308" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704634030461" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704633845308" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704634030461" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -73,7 +73,10 @@
                                 </a>
                             </li>
                             <li class="md:mr-6">
-                                <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://operatobot.app/discord">Serveur de support</a>
+                                <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://operatobot.app/discord">
+                                    <img class="mb-px mr-1" width="18" src="/static/discord-logo-white.svg" />
+                                    <span>Serveur de support</span>
+                                </a>
                             </li>
                             <li class="md:mr-6">
                                 <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://status.operatobot.app/">
@@ -241,7 +244,7 @@
 <pre class="language-none"><code v-pre class="language-none">/warn remove [@membre] [numéro]</code></pre>
 </doc-codeblock></div>
 <p>Ceci retire l&#x27;avertissement mentionné de la base de données et envoie un log dans le salon paramétré pour les logs de modération, s&#x27;il existe.
-Le numéro de l&#x27;avertissement est celui qui s&#x27;affiche dans la <doc-anchor-trigger to="#Lister_les_avertissements_dun_membre">liste des avertissements</doc-anchor-trigger></p>
+Le numéro de l&#x27;avertissement est celui qui s&#x27;affiche dans la <doc-anchor-trigger to="#lister-les-avertissements-dun-membre">liste des avertissements</doc-anchor-trigger></p>
 <doc-anchor-target id="retirer-tous-les-avertissements-dun-membre">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#retirer-tous-les-avertissements-dun-membre">#</doc-anchor-trigger>
