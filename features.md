@@ -40,7 +40,7 @@ Vous pouvez également jouer à de nombreux jeux sur votre serveur avec vos amis
 [!ref](docs/games.md)
 
 ### Memes
-Vous pouvez rechercher des memes aléatoires avec [la commande `/meme`](docs/commands.md#memes), qui récupère un meme pris au hasard sur le site [Imgur](imgur.com).
+Vous pouvez rechercher des memes aléatoires avec [la commande `/meme`](docs/commands.md#meme), qui récupère un meme pris au hasard sur le site [Imgur](imgur.com).
 
 ## Pratique
 ### Recherche d'images
