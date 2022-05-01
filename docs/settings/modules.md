@@ -58,3 +58,20 @@ Vérifiez vos permissions : la modification de ce paramètre nécessite la permi
 
 ##### `Opération annulée`
 Le bot a rencontré un problème. Soit il n'a pas reçu votre confirmation, soit il a rencontré une erreur interne au serveur ; dans le deuxième cas, contactez le [support](/support.md).
+
+## Liste des modules
+Vous retrouverez cette liste en utilisant la commande `/modules` sur votre serveur. Cette même commande indique également si chaque module est activé ou non sur votre serveur.
+
+!!!
+Tous les modules ne peuvent être désactivés. Les modules qui peuvent l'être sont signalés ci-dessous par le badge [!badge variant="success" text="Réglable"] ; les autres sont signalés par le badge [!badge variant="danger" text="Persistant"].
+!!!
+
+Module | Identifiant | Description
+--- | --- | ---
+:books: Administration [!badge variant="danger" text="Persistant"] | `admin` | Commandes pour gérer un serveur, essentiellement réservées aux administrateurs.
+:moneybag: OperaToBank [!badge variant="success" text="Réglable"] | `bank` | Commandes liées à OperaToBank, le système économique fictif d'OperaToBot.
+:robot_face: Bot [!badge variant="danger" text="Persistant"] | `bot` | Commandes pour obtenir des informations, de l'aide ou des liens en rapport avec OperaToBot.
+:bowling: Jeux & loisirs [!badge variant="success" text="Réglable"] | `fun` | Commandes pour s'amuser un peu avec le bot.
+:frame_with_picture: Images [!badge variant="success" text="Réglable"] | `images` | Commandes pour afficher et éditer simplement des images.
+:information_source: Informations [!badge variant="success" text="Réglable"] | `info` | Commandes permettant d'afficher des informations diverses.
+:scales: Modération [!badge variant="success" text="Réglable"] | `mods` | Commandes de modération

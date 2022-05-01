@@ -37,6 +37,7 @@ Il est inutile de rejoindre plusieurs fois le serveur de support, vous n'obtiend
 ``` Pour un autre membre
 /bank [membre]
 ```
+Vous pouvez également faire un clic droit sur l'utilisateur dont vous souhaitez connaître l'état des comptes, puis cliquer sur *Compte OperaToBank*.
 
 ## Voir le classement OperaToBank
 Ce classement est commun à tous les serveurs.
@@ -52,9 +53,8 @@ Ce classement est commun à tous les serveurs.
 Disponible une fois toutes les 2 heures.
 
 ### Voler un autre utilisateur
-```
-/rob [utilisateur]
-```
+Clic droit sur la cible, puis clic sur *Dérober*.
+
 Disponible une fois par semaine. Attention, ça ne marche pas à tous les coups !
 
 ### Jouer à des jeux
