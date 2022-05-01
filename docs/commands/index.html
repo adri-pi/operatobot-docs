@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/fav.ico" rel="icon" />
-    <link href="/resources/css/retype.css?v=2.2.704646168497" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.704716219811" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704646168497" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704716219811" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704646168497" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704716219811" defer></script>
     <link href="/resources/css/katex.css?v=2.2" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="/resources/js/katex.js?v=2.2" defer></script>
 </head>
@@ -206,7 +206,11 @@
         <span>Liste des commandes</span>
     </h1>
 </doc-anchor-target>
-<p>OperaToBot embarque de nombreuses commandes. Ne sont listées ici que les commandes slash, accessibles depuis le chat ; il existe également l&#x27;équivalent de certaines commandes listées ici dans les menus contextuels.</p>
+<p>OperaToBot embarque <strong>de nombreuses commandes</strong> ; la plupart d&#x27;entre elles sont des <strong>commandes slash</strong> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>SLASH</span>
+</span>, mais il existe aussi des commandes apparaissant dans les <strong>menus contextuels utilisateur</strong> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-gray-600 dark:text-dark-600 bg-gray-200 h-6 px-2 text-xs rounded-md">
+    <span>USER</span>
+</span>.</p>
 <doc-anchor-target id="administration">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#administration">#</doc-anchor-trigger>
@@ -244,40 +248,48 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="delete">
+<doc-anchor-target id="delete-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#delete">#</doc-anchor-trigger>
-        <span><code v-pre>delete</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#delete-slash">#</doc-anchor-trigger>
+        <span><code v-pre>delete</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Supprime un paramètre du bot.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/delete [nom du paramètre] (...)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="say">
+<doc-anchor-target id="say-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#say">#</doc-anchor-trigger>
-        <span><code v-pre>say</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#say-slash">#</doc-anchor-trigger>
+        <span><code v-pre>say</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Fait parler le bot dans le salon où la commande est effectuée.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/say [texte]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="set">
+<doc-anchor-target id="set-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#set">#</doc-anchor-trigger>
-        <span><code v-pre>set</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-slash">#</doc-anchor-trigger>
+        <span><code v-pre>set</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Modifie un paramètre du bot.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/set [nom du paramètre] [...]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="setup">
+<doc-anchor-target id="setup-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setup">#</doc-anchor-trigger>
-        <span><code v-pre>setup</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setup-slash">#</doc-anchor-trigger>
+        <span><code v-pre>setup</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Accéder à l&#x27;assistant de paramétrage d&#x27;OperaToBot.</p>
@@ -321,30 +333,69 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="bank">
+<doc-anchor-target id="bank-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bank">#</doc-anchor-trigger>
-        <span><code v-pre>bank</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bank-slash">#</doc-anchor-trigger>
+        <span><code v-pre>bank</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-gray-600 dark:text-dark-600 bg-gray-200 h-6 px-2 text-xs rounded-md">
+            <span>USER</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
-<p>Créer ou consulter l&#x27;état d&#x27;un compte OperaToBank</p>
+<p>Créer ou consulter l&#x27;état d&#x27;un compte OperaToBank.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Pour consulter l&#x27;état d&#x27;un compte d&#x27;un autre utilisateur, celui-ci doit avoir un compte OperaToBank.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="commande-slash">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commande-slash">#</doc-anchor-trigger>
+        <span>Commande slash</span>
+    </h4>
+</doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/bank (utilisateur)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="buy">
+<p>L&#x27;option <code v-pre>utilisateur</code> n&#x27;est à utiliser que pour consulter l&#x27;état d&#x27;un compte d&#x27;un autre utilisateur.</p>
+<doc-anchor-target id="commande-utilisateur">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commande-utilisateur">#</doc-anchor-trigger>
+        <span>Commande utilisateur</span>
+    </h4>
+</doc-anchor-target>
+<p>Apparaît dans le menu contextuel de clic droit sur un utilisateur sous le nom <em>Compte OperaToBank</em>.</p>
+<doc-anchor-target id="buy-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#buy">#</doc-anchor-trigger>
-        <span><code v-pre>buy</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#buy-slash">#</doc-anchor-trigger>
+        <span><code v-pre>buy</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Effectuer un achat sur le magasin OperaToShop.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/buy [item]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="give">
+<doc-anchor-target id="give-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#give">#</doc-anchor-trigger>
-        <span><code v-pre>give</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#give-slash">#</doc-anchor-trigger>
+        <span><code v-pre>give</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Faire un don d&#x27;OperaToCoins à un autre utilisateur.</p>
@@ -368,40 +419,75 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/give [utilisateur] [montant]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="inventory">
+<doc-anchor-target id="inventory-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#inventory">#</doc-anchor-trigger>
-        <span><code v-pre>inventory</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#inventory-slash">#</doc-anchor-trigger>
+        <span><code v-pre>inventory</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Consulter son inventaire. Sélectionner <code v-pre>hide</code> permet de cacher le résultat aux yeux des autres utilisateurs.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/inventory (hide)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="shop">
+<doc-anchor-target id="rob-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#shop">#</doc-anchor-trigger>
-        <span><code v-pre>shop</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rob-slash">#</doc-anchor-trigger>
+        <span><code v-pre>rob</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>L&#x27;utilisateur cible doit également avoir un compte OperaToBank.</p>
+        </div>
+    </div>
+</div>
+<p>Voler un autre utilisateur.</p>
+<p>Apparaît dans le menu contextuel de clic droit sur un utilisateur sous le nom <em>Dérober</em>.</p>
+<doc-anchor-target id="shop-slash">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#shop-slash">#</doc-anchor-trigger>
+        <span><code v-pre>shop</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche la liste des items disponibles à l&#x27;achat sur OperaToShop.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/shop</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="top">
+<doc-anchor-target id="top-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#top">#</doc-anchor-trigger>
-        <span><code v-pre>top</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#top-slash">#</doc-anchor-trigger>
+        <span><code v-pre>top</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche le classement des plus riches du système OperaToBank.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/top</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="work">
+<doc-anchor-target id="work-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#work">#</doc-anchor-trigger>
-        <span><code v-pre>work</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#work-slash">#</doc-anchor-trigger>
+        <span><code v-pre>work</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Travailler afin de gagner quelques OperaToCoins.</p>
@@ -414,50 +500,60 @@
         <span>Bot</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="changelog">
+<doc-anchor-target id="changelog-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#changelog">#</doc-anchor-trigger>
-        <span><code v-pre>changelog</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#changelog-slash">#</doc-anchor-trigger>
+        <span><code v-pre>changelog</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche les modifications apportées au bot lors d&#x27;une mise à jour (la dernière par défaut).</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/changelog (version)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="help">
+<doc-anchor-target id="help-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#help">#</doc-anchor-trigger>
-        <span><code v-pre>help</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#help-slash">#</doc-anchor-trigger>
+        <span><code v-pre>help</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche la liste des commandes ou comment utiliser l&#x27;une d&#x27;entre elles.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/help (commande)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="modules">
+<doc-anchor-target id="modules-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modules">#</doc-anchor-trigger>
-        <span><code v-pre>modules</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modules-slash">#</doc-anchor-trigger>
+        <span><code v-pre>modules</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Liste les modules du bot.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/modules</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="ping">
+<doc-anchor-target id="ping-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ping">#</doc-anchor-trigger>
-        <span><code v-pre>ping</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ping-slash">#</doc-anchor-trigger>
+        <span><code v-pre>ping</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Renvoie le temps de latence du bot.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/ping</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="status">
+<doc-anchor-target id="status-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#status">#</doc-anchor-trigger>
-        <span><code v-pre>status</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#status-slash">#</doc-anchor-trigger>
+        <span><code v-pre>status</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche le statut des services OperaToBot.</p>
@@ -484,30 +580,36 @@
     <a href="/docs/games/" class="absolute block inset-0"></a>
 </div>
 </p>
-<doc-anchor-target id="8ball">
+<doc-anchor-target id="8ball-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#8ball">#</doc-anchor-trigger>
-        <span><code v-pre>8ball</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#8ball-slash">#</doc-anchor-trigger>
+        <span><code v-pre>8ball</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Répond par oui ou non de manière aléatoire à une question.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/8ball [question]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="allumettes">
+<doc-anchor-target id="allumettes-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#allumettes">#</doc-anchor-trigger>
-        <span><code v-pre>allumettes</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#allumettes-slash">#</doc-anchor-trigger>
+        <span><code v-pre>allumettes</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Jouer au jeu des allumettes face à un autre utilisateur.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/8ball [membre] (nombre d'allumettes) </code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="bet">
+<doc-anchor-target id="bet-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bet">#</doc-anchor-trigger>
-        <span><code v-pre>bet</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bet-slash">#</doc-anchor-trigger>
+        <span><code v-pre>bet</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <div class="flex mb-6">
@@ -531,40 +633,48 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/bet [montant] [chiffre]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="choose">
+<doc-anchor-target id="choose-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#choose">#</doc-anchor-trigger>
-        <span><code v-pre>choose</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#choose-slash">#</doc-anchor-trigger>
+        <span><code v-pre>choose</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Laisse le bot faire un choix parmi les différentes propositions.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/choose [choix (séparées par /)]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="die">
+<doc-anchor-target id="die-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#die">#</doc-anchor-trigger>
-        <span><code v-pre>die</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#die-slash">#</doc-anchor-trigger>
+        <span><code v-pre>die</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Lance un dé à <span class="math">n</span> faces, <span class="math">n</span> étant un entier strictement positif (<span class="math">n=6</span> par défaut).</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/die [n]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="meme">
+<doc-anchor-target id="meme-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#meme">#</doc-anchor-trigger>
-        <span><code v-pre>meme</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#meme-slash">#</doc-anchor-trigger>
+        <span><code v-pre>meme</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Affiche un meme pris au hasard sur <a href="https://imgur.com">imgur</a></p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/meme</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="moneysweeper">
+<doc-anchor-target id="moneysweeper-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#moneysweeper">#</doc-anchor-trigger>
-        <span><code v-pre>moneysweeper</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#moneysweeper-slash">#</doc-anchor-trigger>
+        <span><code v-pre>moneysweeper</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <div class="flex mb-6">
@@ -588,10 +698,12 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/moneysweeper</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="rps">
+<doc-anchor-target id="rps-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rps">#</doc-anchor-trigger>
-        <span><code v-pre>rps</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rps-slash">#</doc-anchor-trigger>
+        <span><code v-pre>rps</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Jouer à pierre-feuille-ciseaux contre le bot</p>
@@ -618,20 +730,24 @@
     <a href="/docs/pics/" class="absolute block inset-0"></a>
 </div>
 </p>
-<doc-anchor-target id="giphy">
+<doc-anchor-target id="giphy-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#giphy">#</doc-anchor-trigger>
-        <span><code v-pre>giphy</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#giphy-slash">#</doc-anchor-trigger>
+        <span><code v-pre>giphy</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Recherche des GIF sur <a href="https://giphy.com">giphy</a></p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/giphy [mots-clés]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="imgur">
+<doc-anchor-target id="imgur-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#imgur">#</doc-anchor-trigger>
-        <span><code v-pre>imgur</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#imgur-slash">#</doc-anchor-trigger>
+        <span><code v-pre>imgur</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Recherche des images sur <a href="https://imgur.com">imgur</a></p>
@@ -644,16 +760,28 @@
         <span>Informations</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="serverinfo">
+<doc-anchor-target id="serverinfo-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#serverinfo">#</doc-anchor-trigger>
-        <span><code v-pre>serverinfo</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#serverinfo-slash">#</doc-anchor-trigger>
+        <span><code v-pre>serverinfo</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Informations et statistiques sur le serveur.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/serverinfo</code></pre>
 </doc-codeblock></div>
+<doc-anchor-target id="userstats">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#userstats">#</doc-anchor-trigger>
+        <span><code v-pre>userstats</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-gray-600 dark:text-dark-600 bg-gray-200 h-6 px-2 text-xs rounded-md">
+            <span>USER</span>
+        </span></span>
+    </h3>
+</doc-anchor-target>
+<p>Informations sur un utilisateur.</p>
+<p>Apparaît dans le menu contextuel de clic droit sur un utilisateur sous le nom <em>Statistiques</em>.</p>
 <doc-anchor-target id="modération">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#modération">#</doc-anchor-trigger>
@@ -691,50 +819,60 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="ban">
+<doc-anchor-target id="ban-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ban">#</doc-anchor-trigger>
-        <span><code v-pre>ban</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ban-slash">#</doc-anchor-trigger>
+        <span><code v-pre>ban</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Bannit un membre du serveur en lui envoyant une notification</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/ban [membre] (raison)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="hardban">
+<doc-anchor-target id="hardban-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#hardban">#</doc-anchor-trigger>
-        <span><code v-pre>hardban</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hardban-slash">#</doc-anchor-trigger>
+        <span><code v-pre>hardban</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Bannit un utilisateur n&#x27;étant pas sur le serveur, grâce à son <a href="https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message-">identifiant</a>.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/hardban [identifiant] (raison)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="kick">
+<doc-anchor-target id="kick-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#kick">#</doc-anchor-trigger>
-        <span><code v-pre>kick</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#kick-slash">#</doc-anchor-trigger>
+        <span><code v-pre>kick</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Expulse un membre du serveur et lui envoie une notification.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/kick [membre] (raison)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="mute">
+<doc-anchor-target id="mute-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#mute">#</doc-anchor-trigger>
-        <span><code v-pre>mute</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mute-slash">#</doc-anchor-trigger>
+        <span><code v-pre>mute</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Rend un membre <a href="https://support.discord.com/hc/fr/articles/4413305239191-Time-Out-FAQ">muet</a></p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/mute [membre] (raison) (nombre de jours) (nombre d'heures) (nombre de minutes)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="purge">
+<doc-anchor-target id="purge-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#purge">#</doc-anchor-trigger>
-        <span><code v-pre>purge</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#purge-slash">#</doc-anchor-trigger>
+        <span><code v-pre>purge</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Supprimer des messages (de moins de 15 jours) en masse dans le salon où est effectuée la commande.</p>
@@ -757,20 +895,24 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/purge [nombre de messages à supprimer]</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="unmute">
+<doc-anchor-target id="unmute-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#unmute">#</doc-anchor-trigger>
-        <span><code v-pre>unmute</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unmute-slash">#</doc-anchor-trigger>
+        <span><code v-pre>unmute</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Retire le statut muet d&#x27;un membre.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">/unmute [membre] (raison)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="warn">
+<doc-anchor-target id="warn-slash">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#warn">#</doc-anchor-trigger>
-        <span><code v-pre>warn</code></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#warn-slash">#</doc-anchor-trigger>
+        <span><code v-pre>warn</code> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+            <span>SLASH</span>
+        </span></span>
     </h3>
 </doc-anchor-target>
 <p>Gérer les avertissements d&#x27;un membre</p>

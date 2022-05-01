@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/fav.ico" rel="icon" />
-    <link href="/resources/css/retype.css?v=2.2.704646168497" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.704716219811" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704646168497" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704716219811" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704646168497" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704716219811" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -346,6 +346,96 @@ Vous trouverez la liste des modules avec leurs identifiants et leur statut en ut
     </h5>
 </doc-anchor-target>
 <p>Le bot a rencontré un problème. Soit il n&#x27;a pas reçu votre confirmation, soit il a rencontré une erreur interne au serveur ; dans le deuxième cas, contactez le <a href="https://discord.com/invite/jzFn5m6">support</a>.</p>
+<doc-anchor-target id="liste-des-modules">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#liste-des-modules">#</doc-anchor-trigger>
+        <span>Liste des modules</span>
+    </h2>
+</doc-anchor-target>
+<p>Vous retrouverez cette liste en utilisant la commande <code v-pre>/modules</code> sur votre serveur. Cette même commande indique également si chaque module est activé ou non sur votre serveur.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Tous les modules ne peuvent être désactivés. Les modules qui peuvent l&#x27;être sont signalés ci-dessous par le badge <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span> ; les autres sont signalés par le badge <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-md">
+    <span>Persistant</span>
+</span>.</p>
+        </div>
+    </div>
+</div>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Module</th>
+<th>Identifiant</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="docs-emoji">&#x1F4DA;</span> Administration <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-md">
+    <span>Persistant</span>
+</span></td>
+<td><code v-pre>admin</code></td>
+<td>Commandes pour gérer un serveur, essentiellement réservées aux administrateurs.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x1F4B0;</span> OperaToBank <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span></td>
+<td><code v-pre>bank</code></td>
+<td>Commandes liées à OperaToBank, le système économique fictif d&#x27;OperaToBot.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x1F916;</span> Bot <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-md">
+    <span>Persistant</span>
+</span></td>
+<td><code v-pre>bot</code></td>
+<td>Commandes pour obtenir des informations, de l&#x27;aide ou des liens en rapport avec OperaToBot.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x1F3B3;</span> Jeux &amp; loisirs <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span></td>
+<td><code v-pre>fun</code></td>
+<td>Commandes pour s&#x27;amuser un peu avec le bot.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x1F5BC;&#xFE0F;</span> Images <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span></td>
+<td><code v-pre>images</code></td>
+<td>Commandes pour afficher et éditer simplement des images.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x2139;&#xFE0F;</span> Informations <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span></td>
+<td><code v-pre>info</code></td>
+<td>Commandes permettant d&#x27;afficher des informations diverses.</td>
+</tr>
+<tr>
+<td><span class="docs-emoji">&#x2696;&#xFE0F;</span> Modération <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Réglable</span>
+</span></td>
+<td><code v-pre>mods</code></td>
+<td>Commandes de modération</td>
+</tr>
+</tbody>
+</table>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
