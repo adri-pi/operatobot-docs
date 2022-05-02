@@ -17,7 +17,7 @@ En cliquant sur le bouton suivant :
 !!!
 
 ## J'ai lancé une commande, mais celle-ci ne répond pas ou ne fonctionne pas correctement. Pourquoi ?
-Vérifiez que vous avez bien indiqué des arguments corrects, et que vous avez les bonnes permissions. Si c'est le cas, mais que la commande ne fonctionne pas ou mal, rejoignez le [serveur de support](support.md) et signalez le problème dans le salon #bugs, en précisant la commande lancée avec les arguments indiqués.
+Vérifiez que vous avez bien indiqué des arguments corrects, que le module de la commande est activé sur le serveur, que vous avez les bonnes permissions et que la commande a été effectuée sur un serveur si nécessaire. Si c'est le cas, mais que la commande ne fonctionne pas ou mal, rejoignez le [serveur de support](support.md) et signalez le problème dans le salon #bugs, en précisant la commande lancée avec les arguments indiqués.
 
 ## Je vois un message "Echec de l'interaction", mais la commande fonctionne tout de même. Pourquoi ?
 **C'est un bug.** Signalez-le sur le [serveur de support](support.md) dans le salon #bugs, en précisant la commande lancée, avec les arguments indiqués, ainsi qu'une capture d'écran du message.

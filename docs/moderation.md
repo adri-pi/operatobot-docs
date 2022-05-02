@@ -10,6 +10,10 @@ order: -2
 
 OperaToBot est une solution de modération très complète pour gérer les sanctions sur votre serveur.
 
+!!!
+Les permissions indiquées sur cette page sont les permissions **par défaut**, et peuvent être modifiées dans les paramètres de votre serveur.
+!!!
+
 ## Avertissements (`warn`)
 OperaToBot vous permet d'avertir les membres de votre serveur. 
 !!!warning

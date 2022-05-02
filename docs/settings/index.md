@@ -14,6 +14,10 @@ Besoin d'aide pour paramétrer le bot ? Retrouvez ici la liste des paramètres m
 Attention : toute modification des paramètres avec une des commandes indiquées ci-dessous est immédiate et irréversible.
 !!!
 
+!!!warning Permissions nécessaires
+Les permissions demandées pour les commandes suivantes **ne peuvent être modifiées** dans les paramètres de votre serveur contrairement aux autres, comme elles sont différentes selon le paramètre modifié. Modifier les permissions des commandes `set`, `setup` et `delete` n'aura aucune incidence sur la vérification des permissions faite par le bot lors de l'utilisation de la commande.
+!!!
+
 ## Paramétrer le bot pour la première fois
 C'est la première fois que vous utilisez le bot ? Utilisez la commande `/setup` et laissez-vous guider par le bot. Vous pourrez paramétrer chaque fonction du bot une par une.
 

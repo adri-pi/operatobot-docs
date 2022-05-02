@@ -10,6 +10,37 @@ order: -20
 # Notes de mise à jour
 Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.
 
+## Version 3.0.0 [!badge text="BETA" variant="info"] [!badge text="Dernière version" variant="info"]
+*Déployée le x/x/2022.*
+### Ajouté
+- Commandes slash
+- Commandes utilisateur 
+- BoutonRôle
+- Logs de paramétrage du bot
+- CGU et Politique de Confidentialité
+- Bouton "Inviter le bot" et profil bot
+- Commande `modules`
+### Modifié
+- Nouveau site internet, déplacé sur un autre domaine et une autre plateforme
+- Système de permissions pour les commandes, maintenant cohérent avec le nouveau système de permissions Discord
+- Commandes `mute`, maintenant cohérentes avec le système d'exclusion intégré par Discord
+- Les commandes `rob` et `userstats` (fusion de `avatar` et `userinfo`) est maintenant uniquement accessible via le menu clic droit utililisateur
+- Commande `setup` améliorée
+- Amélioration de la confirmation d'actions sensibles
+- Commande `hackban` renommée en `hardban`
+- Serveur de support
+- Mise à jour de la page [top.gg](https://top.gg/fr/bot/503954760139800577)
+- Identité visuelle
+- De nombreux bugs corrigés
+### Supprimé
+- Toutes les commandes avec le préfixe `tb!`, pour suivre la nouvelle politique de Discord en matière de bots
+- Réglage du ReactionRole, du préfixe, des administrateurs bot, du rôle muet, des webhooks
+- OperaToShop : item `supportAd` (publicité sur le serveur de support)
+- VCS
+- Commandes rendues obsolètes par les commandes `set` et `setup` : `autorole`, `module`, `reactionrole`
+- Commandes rendues obsolètes par les informations disponibles sur le profil : `botinfo`, `invite`, `support`, `suggest`
+- Commande `use` temporairement retirée en l'absence d'items dans OperaToShop
+
 ## Version 2.0.5
 *Déployée le 27/04/2021.*
 ### Modifié

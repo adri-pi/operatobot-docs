@@ -23,6 +23,9 @@ Supprime un paramètre du bot.
 
 ### `say` [!badge text="SLASH"]
 Fait parler le bot dans le salon où la commande est effectuée.
+!!!
+Cette permission nécessite, par défaut, la permission *Gérer les messages* si elle est effectuée sur un serveur.
+!!!
 ```
 /say [texte]
 ```
@@ -220,7 +223,7 @@ Apparaît dans le menu contextuel de clic droit sur un utilisateur sous le nom *
 ## Modération
 [!ref](moderation.md)
 !!!warning Permissions nécessaires
-Des permissions sont demandées pour les commandes de cette catégorie, et diffèrent suivant la commande. Consultez la page [Modération](moderation.md) pour en savoir plus.
+Par défaut, des permissions sont demandées pour les commandes de cette catégorie, et diffèrent suivant la commande. Consultez la page [Modération](moderation.md) pour en savoir plus.
 !!!
 ### `ban` [!badge text="SLASH"]
 Bannit un membre du serveur en lui envoyant une notification
