@@ -28,11 +28,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/fav.ico" rel="icon" />
-    <link href="/resources/css/retype.css?v=2.2.704716365690" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=2.2.704834299650" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704716365690" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=2.2.704834299650" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=2.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704716365690" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=2.2.704834299650" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -205,6 +205,66 @@
     </h1>
 </doc-anchor-target>
 <p>Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.</p>
+<doc-anchor-target id="version-3-0-0">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#version-3-0-0">#</doc-anchor-trigger>
+        <span>Version 3.0.0 <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 h-6 px-2 text-xs rounded-md">
+            <span>BETA</span>
+        </span> <span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 h-6 px-2 text-xs rounded-md">
+            <span>Dernière version</span>
+        </span></span>
+    </h2>
+</doc-anchor-target>
+<p><em>Déployée le x/x/2022.</em></p>
+<doc-anchor-target id="ajouté">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté">#</doc-anchor-trigger>
+        <span>Ajouté</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Commandes slash</li>
+<li>Commandes utilisateur</li>
+<li>BoutonRôle</li>
+<li>Logs de paramétrage du bot</li>
+<li>CGU et Politique de Confidentialité</li>
+<li>Bouton &quot;Inviter le bot&quot; et profil bot</li>
+<li>Commande <code v-pre>modules</code></li>
+</ul>
+<doc-anchor-target id="modifié">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié">#</doc-anchor-trigger>
+        <span>Modifié</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Nouveau site internet, déplacé sur un autre domaine et une autre plateforme</li>
+<li>Système de permissions pour les commandes, maintenant cohérent avec le nouveau système de permissions Discord</li>
+<li>Commandes <code v-pre>mute</code>, maintenant cohérentes avec le système d&#x27;exclusion intégré par Discord</li>
+<li>Les commandes <code v-pre>rob</code> et <code v-pre>userstats</code> (fusion de <code v-pre>avatar</code> et <code v-pre>userinfo</code>) est maintenant uniquement accessible via le menu clic droit utililisateur</li>
+<li>Commande <code v-pre>setup</code> améliorée</li>
+<li>Amélioration de la confirmation d&#x27;actions sensibles</li>
+<li>Commande <code v-pre>hackban</code> renommée en <code v-pre>hardban</code></li>
+<li>Serveur de support</li>
+<li>Mise à jour de la page <a href="https://top.gg/fr/bot/503954760139800577">top.gg</a></li>
+<li>Identité visuelle</li>
+<li>De nombreux bugs corrigés</li>
+</ul>
+<doc-anchor-target id="supprimé">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimé">#</doc-anchor-trigger>
+        <span>Supprimé</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Toutes les commandes avec le préfixe <code v-pre>tb!</code>, pour suivre la nouvelle politique de Discord en matière de bots</li>
+<li>Réglage du ReactionRole, du préfixe, des administrateurs bot, du rôle muet, des webhooks</li>
+<li>OperaToShop : item <code v-pre>supportAd</code> (publicité sur le serveur de support)</li>
+<li>VCS</li>
+<li>Commandes rendues obsolètes par les commandes <code v-pre>set</code> et <code v-pre>setup</code> : <code v-pre>autorole</code>, <code v-pre>module</code>, <code v-pre>reactionrole</code></li>
+<li>Commandes rendues obsolètes par les informations disponibles sur le profil : <code v-pre>botinfo</code>, <code v-pre>invite</code>, <code v-pre>support</code>, <code v-pre>suggest</code></li>
+<li>Commande <code v-pre>use</code> temporairement retirée en l&#x27;absence d&#x27;items dans OperaToShop</li>
+</ul>
 <doc-anchor-target id="version-205">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#version-205">#</doc-anchor-trigger>
@@ -212,9 +272,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 27/04/2021.</em></p>
-<doc-anchor-target id="modifié">
+<doc-anchor-target id="modifié-1">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-1">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -230,9 +290,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 14/04/2021.</em></p>
-<doc-anchor-target id="modifié-1">
+<doc-anchor-target id="modifié-2">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-1">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-2">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -246,9 +306,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 26/08/2020.</em></p>
-<doc-anchor-target id="modifié-2">
+<doc-anchor-target id="modifié-3">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-2">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-3">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -262,18 +322,18 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 22/08/2020.</em></p>
-<doc-anchor-target id="ajouté">
+<doc-anchor-target id="ajouté-1">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-1">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Commande <code v-pre>moneysweeper</code></li>
 </ul>
-<doc-anchor-target id="modifié-3">
+<doc-anchor-target id="modifié-4">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-3">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-4">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -288,9 +348,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 19/08/2020.</em></p>
-<doc-anchor-target id="modifié-4">
+<doc-anchor-target id="modifié-5">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-4">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-5">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -304,9 +364,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 19/08/2020.</em></p>
-<doc-anchor-target id="ajouté-1">
+<doc-anchor-target id="ajouté-2">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-1">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-2">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -316,9 +376,9 @@
 <li>OperaToShop : commandes <code v-pre>shop</code>, <code v-pre>inventory</code>, <code v-pre>use</code> et <code v-pre>buy</code></li>
 <li>Mini-jeux : commande <code v-pre>bet</code></li>
 </ul>
-<doc-anchor-target id="modifié-5">
+<doc-anchor-target id="modifié-6">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-5">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-6">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -334,9 +394,9 @@
 <li>OperaToShop : commande <code v-pre>give</code> permettant de donner des items ; commandes <code v-pre>work</code>, <code v-pre>bingo</code> et <code v-pre>rob</code> améliorées en conséquence</li>
 <li>Commande <code v-pre>meme</code> totalement revue avec l&#x27;utilisation d&#x27;<a href="https://imgur.com">imgur</a> et non plus des suggestions des utilisateurs</li>
 </ul>
-<doc-anchor-target id="supprimé">
+<doc-anchor-target id="supprimé-1">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimé">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimé-1">#</doc-anchor-trigger>
         <span>Supprimé</span>
     </h3>
 </doc-anchor-target>
@@ -353,9 +413,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 28/04/2020.</em></p>
-<doc-anchor-target id="modifié-6">
+<doc-anchor-target id="modifié-7">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-6">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-7">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -371,9 +431,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 11/01/2020.</em></p>
-<doc-anchor-target id="ajouté-2">
+<doc-anchor-target id="ajouté-3">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-2">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-3">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -387,9 +447,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 27/10/2019.</em></p>
-<doc-anchor-target id="ajouté-3">
+<doc-anchor-target id="ajouté-4">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-3">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-4">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -403,18 +463,18 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 07/09/2019.</em></p>
-<doc-anchor-target id="ajouté-4">
+<doc-anchor-target id="ajouté-5">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-4">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-5">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Commande <code v-pre>changelog</code></li>
 </ul>
-<doc-anchor-target id="modifié-7">
+<doc-anchor-target id="modifié-8">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-7">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-8">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -437,18 +497,18 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 21/08/2019.</em></p>
-<doc-anchor-target id="ajouté-5">
+<doc-anchor-target id="ajouté-6">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-5">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-6">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Cooldown d&#x27;une minute sur le VCS</li>
 </ul>
-<doc-anchor-target id="modifié-8">
+<doc-anchor-target id="modifié-9">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-8">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-9">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -463,9 +523,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 19/08/2019.</em></p>
-<doc-anchor-target id="modifié-9">
+<doc-anchor-target id="modifié-10">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-9">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-10">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h2>
 </doc-anchor-target>
@@ -479,9 +539,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 18/08/2019.</em></p>
-<doc-anchor-target id="ajouté-6">
+<doc-anchor-target id="ajouté-7">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-6">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-7">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -490,9 +550,9 @@
 <li>Message d&#x27;erreur quand un utilisateur banni du VCS tente de l&#x27;utiliser</li>
 <li>Détection et blocage des messages comprenant un URL dans le VCS</li>
 </ul>
-<doc-anchor-target id="modifié-10">
+<doc-anchor-target id="modifié-11">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-10">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-11">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -507,9 +567,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 11/08/2019.</em></p>
-<doc-anchor-target id="ajouté-7">
+<doc-anchor-target id="ajouté-8">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-7">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-8">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -524,9 +584,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 28/06/2019.</em></p>
-<doc-anchor-target id="ajouté-8">
+<doc-anchor-target id="ajouté-9">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-8">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-9">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -535,18 +595,18 @@
 <li>Commande <code v-pre>steamplaying</code></li>
 <li>Commande <code v-pre>vcslist</code></li>
 </ul>
-<doc-anchor-target id="modifié-11">
+<doc-anchor-target id="modifié-12">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-11">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-12">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Commande <code v-pre>help</code></li>
 </ul>
-<doc-anchor-target id="supprimé-1">
+<doc-anchor-target id="supprimé-2">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimé-1">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#supprimé-2">#</doc-anchor-trigger>
         <span>Supprimé</span>
     </h3>
 </doc-anchor-target>
@@ -560,18 +620,18 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 09/06/2019.</em></p>
-<doc-anchor-target id="ajouté-9">
+<doc-anchor-target id="ajouté-10">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-9">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-10">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Commande <code v-pre>status</code></li>
 </ul>
-<doc-anchor-target id="modifié-12">
+<doc-anchor-target id="modifié-13">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-12">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-13">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -585,18 +645,18 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 30/05/2019.</em></p>
-<doc-anchor-target id="ajouté-10">
+<doc-anchor-target id="ajouté-11">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-10">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-11">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li>Badge <em>Modérateur</em> sur le VCS pour les membres du support.</li>
 </ul>
-<doc-anchor-target id="modifié-13">
+<doc-anchor-target id="modifié-14">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-13">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-14">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -611,9 +671,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 18/05/2019.</em></p>
-<doc-anchor-target id="ajouté-11">
+<doc-anchor-target id="ajouté-12">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-11">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-12">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -627,9 +687,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 27/04/2019.</em></p>
-<doc-anchor-target id="modifié-14">
+<doc-anchor-target id="modifié-15">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-14">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-15">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -644,9 +704,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 15/04/2019.</em></p>
-<doc-anchor-target id="modifié-15">
+<doc-anchor-target id="modifié-16">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-15">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-16">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
@@ -661,9 +721,9 @@
     </h2>
 </doc-anchor-target>
 <p><em>Déployée le 06/04/2019.</em></p>
-<doc-anchor-target id="ajouté-12">
+<doc-anchor-target id="ajouté-13">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-12">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ajouté-13">#</doc-anchor-trigger>
         <span>Ajouté</span>
     </h3>
 </doc-anchor-target>
@@ -671,9 +731,9 @@
 <li>Commande <code v-pre>set</code></li>
 <li>Site Internet</li>
 </ul>
-<doc-anchor-target id="modifié-16">
+<doc-anchor-target id="modifié-17">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-16">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifié-17">#</doc-anchor-trigger>
         <span>Modifié</span>
     </h3>
 </doc-anchor-target>
