@@ -40,6 +40,7 @@ Cette page contient toutes les notes de mise à jour du bot, depuis la version 1
 - Commandes rendues obsolètes par les commandes `set` et `setup` : `autorole`, `module`, `reactionrole`
 - Commandes rendues obsolètes par les informations disponibles sur le profil : `botinfo`, `invite`, `support`, `suggest`
 - Commande `use` temporairement retirée en l'absence d'items dans OperaToShop
+- Commande `bingo` supprimée, suite à la nouvelle politique de Discord en matière de bots qui l'empêche de voir le contenu des messages
 
 ## Version 2.0.5
 *Déployée le 27/04/2021.*
