@@ -11,7 +11,7 @@ order: -20
 Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.
 
 ## Version 3.0.0 [!badge text="BETA" variant="info"] [!badge text="Dernière version" variant="info"]
-*Déployée le x/x/2022.*
+*Déployée le 12/05/2022.*
 ### Ajouté
 - Commandes slash
 - Commandes utilisateur 
