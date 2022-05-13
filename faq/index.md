@@ -11,23 +11,23 @@ order: -10
 ## Comment inviter le bot ?
 En cliquant sur le bouton suivant : 
 
-[!button Inviter le bot](invite.md)
+[!button Inviter le bot](/invite.md)
 !!!
 **Ne désactivez pas la permission** ***Administrateur*** **qui est essentielle au bon fonctionnement du bot.** Veillez à élever le rôle du bot au-dessus des rôles à contrôler (notamment pour le BoutonRole ou les commandes de modération).
 !!!
 
 ## J'ai lancé une commande, mais celle-ci ne répond pas ou ne fonctionne pas correctement. Pourquoi ?
-Vérifiez que vous avez bien indiqué des arguments corrects, que le module de la commande est activé sur le serveur, que vous avez les bonnes permissions et que la commande a été effectuée sur un serveur si nécessaire. Si c'est le cas, mais que la commande ne fonctionne pas ou mal, rejoignez le [serveur de support](support.md) et signalez le problème dans le salon #bugs, en précisant la commande lancée avec les arguments indiqués.
+Vérifiez que vous avez bien indiqué des arguments corrects, que le module de la commande est activé sur le serveur, que vous avez les bonnes permissions et que la commande a été effectuée sur un serveur si nécessaire. Si c'est le cas, mais que la commande ne fonctionne pas ou mal, rejoignez le [serveur de support](/support.md) et signalez le problème dans le salon #bugs, en précisant la commande lancée avec les arguments indiqués.
 
 ## Je vois un message "Echec de l'interaction", mais la commande fonctionne tout de même. Pourquoi ?
-**C'est un bug.** Signalez-le sur le [serveur de support](support.md) dans le salon #bugs, en précisant la commande lancée, avec les arguments indiqués, ainsi qu'une capture d'écran du message.
+**C'est un bug.** Signalez-le sur le [serveur de support](/support.md) dans le salon #bugs, en précisant la commande lancée, avec les arguments indiqués, ainsi qu'une capture d'écran du message.
 
 ## Le BoutonRole ne fonctionne pas lorsque j'appuie sur le bouton. Pourquoi ?
 Plusieurs raisons possibles : 
 - Le rôle **n'existe plus.** Il faut alors supprimer le message sur lequel se trouve le bouton et le reconfigurer.
 - Le rôle **ne peut pas être contrôlé**, car le bot n'a pas les permissions nécessaires (rôle au-dessus de lui, ou permission Administrateur désactivée).
 - Le BoutonRole **n'a pas été réglé pour votre cas**. Par exemple, l'administrateur peut décider que le bouton ne puisse que retirer un rôle, et non l'ajouter ; et vous ne possédez pas ce rôle. Le bot envoie donc un message d'erreur. Un tel comportement est indiqué sur le message.
-Si aucun de ces points n'explique le dysfonctionnement, veuillez rejoindre le [serveur de support](support.md) et indiquer votre problème.
+Si aucun de ces points n'explique le dysfonctionnement, veuillez rejoindre le [serveur de support](/support.md) et indiquer votre problème.
 
 ## De nombreuses commandes ne répondent pas sur mon serveur. Que faire ?
 Il est probable que les commandes soient désactivées via les modules : vérifiez-le avec `/setup modules`. Il est aussi possible que le bot n'ait pas les permissions nécessaires à son bon fonctionnement : en effet, **il a besoin de la permission** ***Administrateur***.

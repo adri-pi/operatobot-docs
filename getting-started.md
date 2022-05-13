@@ -33,7 +33,7 @@ Nous vous conseillons la [commande /setup](docs/commands.md#setup) pour un premi
 
 ## Prise en main 
 ### Liste des fonctionnalités 
-[!ref](features.md)
+[!ref](features/)
 [!ref](docs/commands.md)
 
 ### Besoin d'aide ?

@@ -1,4 +1,4 @@
 ---
-redirect: /faq.md
+redirect: /faq/index.md
 visibility: hidden
 ---
