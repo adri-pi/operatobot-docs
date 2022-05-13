@@ -28,15 +28,15 @@ Vérifiez bien que le bot que vous invitez est [vérifié par Discord](https://s
 Pour que le bot fonctionne correctement, il vous reste un dernier réglage à effectuer : en effet, il vous faut **monter le rôle du bot dans la hiérarchie des rôles**, afin qu'il puisse effectuer les commandes correctement, notamment pour la modération et la gestion des rôles. [En savoir plus](https://support.discord.com/hc/fr/articles/214836687-Gestion-des-r%C3%B4les-101)
 
 ### Premier paramétrage
-Nous vous conseillons la [commande /setup](docs/commands.md#setup) pour un premier paramétrage : cette commande balayera toutes les [fonctionnalités du bot](features.md) que vous pourrez paramétrer comme bon vous semblera.
-[!ref](docs/settings/)
+Nous vous conseillons la [commande /setup](/docs/commands.md#setup) pour un premier paramétrage : cette commande balayera toutes les [fonctionnalités du bot](/features/index.md) que vous pourrez paramétrer comme bon vous semblera.
+[!ref](/docs/settings/)
 
 ## Prise en main 
 ### Liste des fonctionnalités 
-[!ref](features/)
+[!ref](/features/)
 [!ref](docs/commands.md)
 
 ### Besoin d'aide ?
-Si vous avez une question ou que vous ne réussissez pas à trouver l'origine d'un problème, n'hésitez pas à lire la [FAQ](faq.md).
+Si vous avez une question ou que vous ne réussissez pas à trouver l'origine d'un problème, n'hésitez pas à lire la [FAQ](/faq/).
 
 Si le problème persiste, qu'il s'agit d'un bug ou que vous n'avez aucune réponse à votre question, vous pouvez également rejoindre le [serveur de support](support.md).
