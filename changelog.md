@@ -10,7 +10,13 @@ order: -20
 # Notes de mise à jour
 Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.
 
-## Version 3.0.0 [!badge text="BETA" variant="info"] [!badge text="Dernière version" variant="info"]
+## Version 3.0.1 [!badge text="BETA" variant="info"] [!badge text="Dernière version" variant="info"]
+*Déployée le 13/05/2022*
+### Modifié
+- Commande `/status` mise à jour pour être cohérente avec la nouvelle page de statut
+- Bug emoji OperaToCoin résolu
+
+## Version 3.0.0 [!badge text="BETA" variant="info"]
 *Déployée le 12/05/2022.*
 ### Ajouté
 - Commandes slash
