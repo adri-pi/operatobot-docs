@@ -63,7 +63,19 @@ Vérifiez que vous avez bien choisi un salon textuel.
 Le bot a rencontré un problème. Soit il n'a pas reçu votre confirmation, soit il a rencontré une erreur interne au serveur ; dans le deuxième cas, contactez le [support](/support.md).
 
 ### Avec la commande `setup`
-Le paramétrage par la commande `setup` n'est pas supporté pour l'instant.
+#### Syntaxe
+```
+/setup (welcome/goodbye)
+```
+#### Retour de la commande en fonctionnement normal
+Le bot vous propose de choisir le salon dans lequel envoyer les messages, puis vous invite à cliquer sur un bouton. Ce dernier ouvre une fenêtre vous permettant d'entrer le contenu du message. Après validation, les paramètres sont enregistrés.
+
+#### Erreurs possibles
+##### `Vous n'avez pas la permission. (Permission "Gérer le serveur" nécessaire)`
+Vérifiez vos permissions : la modification de ce paramètre nécessite la permission *Gérer le serveur*.
+
+##### `Opération annulée.`
+Le bot a rencontré un problème. Soit il n'a pas reçu votre réponse, soit il a rencontré une erreur interne au serveur ; dans le deuxième cas, contactez le [support](/support.md).
 
 ## Suppression du paramètre
 ### Syntaxe

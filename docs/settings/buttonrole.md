@@ -62,7 +62,7 @@ Le bot a rencontré une erreur interne au serveur ; si cela se reproduit, contac
 ```
 
 #### Retour de la commande en fonctionnement normal
-Arrivé au paramétrage du BoutonRôle, le bot vous propose de choisir le salon, puis chaque rôle avec leurs options possibles. A la fin, il envoie le message avec les boutons ainsi qu'un message de confirmation.
+Arrivé au paramétrage du BoutonRôle, le bot vous propose de choisir le salon, puis chaque rôle avec leurs options possibles. Ensuite, vous pouvez choisir d'ajouter une description personnalisée. A la fin, il envoie le message avec les boutons ainsi qu'un message de confirmation.
 
 #### Erreurs possibles
 ##### `Vous n'avez pas la permission.`

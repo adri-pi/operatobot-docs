@@ -10,7 +10,17 @@ order: -20
 # Notes de mise à jour
 Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.
 
-## Version 3.0.1 [!badge text="BETA" variant="info"] [!badge text="Dernière version" variant="info"]
+## Version 3.1.0 [!badge text="Dernière version" variant="info"]
+*Déployée le 25/08/2022*
+### Ajouté
+- Possibilité de paramétrer une description personnalisée à l'utilisation du `setup buttonrole`
+- Assistant de paramétrage des messages de bienvenue et de départ (`setup welcome` et `setup goodbye`) 
+- Codes erreur uniques
+### Modifié
+- Plafond de 25 salons/rôles corrigé à la sélection dans les menus déroulants : un système de pagination a été mis en place
+- De nombreux bugs corrigés
+
+## Version 3.0.1 [!badge text="BETA" variant="info"]
 *Déployée le 13/05/2022*
 ### Modifié
 - Commande `/status` mise à jour pour être cohérente avec la nouvelle page de statut
