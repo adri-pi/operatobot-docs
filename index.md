@@ -8,7 +8,9 @@ order: -1
 
 # Bienvenue
 
-[![Discord Bots](https://top.gg/api/widget/servers/503954760139800577.svg)](https://top.gg/bot/503954760139800577) [![Discord Bots](https://top.gg/api/widget/upvotes/503954760139800577.svg)](https://top.gg/bot/503954760139800577)
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
 
 ## Le projet OperaToBot
 OperaToBot est un bot Discord français multifonctions né en 2018. Après de nombreuses heures de développement, afin d'être toujours plus ergonomique pour ses utilisateurs, il embarque aujourd'hui, sous sa troisième version majeure, une trentaine de commandes : administration, modération, jeux, recherche d'images... **Il y aura toujours une fonction qui vous plaira sur OperaToBot !**
