@@ -1,6 +1,6 @@
 ---
 
-icon: icon-alert
+icon: alert
 label: Fermeture du service
 order: 20
 ---

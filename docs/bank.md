@@ -7,6 +7,11 @@ order: -3
 ---
 
 # OperaToBank
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 OperaToBank, c'est un système économique global, propre au bot qui vous permettra de gagner des OperaToCoins (monnaie du système, symbole OTC) et de les échanger !
 
 !!!danger DISCLAIMER

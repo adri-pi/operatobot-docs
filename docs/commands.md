@@ -7,6 +7,11 @@ order: 0
 ---
 
 # Liste des commandes
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 OperaToBot embarque **de nombreuses commandes** ; la plupart d'entre elles sont des **commandes slash** [!badge text="SLASH"], mais il existe aussi des commandes apparaissant dans les **menus contextuels utilisateur** [!badge variant="secondary" text="USER"].
 
 ## Administration

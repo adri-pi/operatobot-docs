@@ -8,6 +8,11 @@ order: -10
 
 # Foire aux questions
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 ## Comment inviter le bot ?
 En cliquant sur le bouton suivant : 
 

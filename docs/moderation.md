@@ -8,6 +8,11 @@ order: -2
 
 # Modération
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 OperaToBot est une solution de modération très complète pour gérer les sanctions sur votre serveur.
 
 !!!

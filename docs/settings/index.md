@@ -8,6 +8,11 @@ description: Liste des paramètres personnalisables pour utiliser OperaToBot sur
 
 # Paramétrer le bot
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Besoin d'aide pour paramétrer le bot ? Retrouvez ici la liste des paramètres modifiables, ainsi que la documentation des commandes permettant de les modifier.
 
 !!!warning

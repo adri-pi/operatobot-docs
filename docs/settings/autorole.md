@@ -8,6 +8,11 @@ order: -1
 
 # Attribution automatiques de rôles aux nouveaux membres
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Ce paramètre permet de choisir les rôles à attribuer automatiquement avec le bot aux nouveaux arrivants sur le serveur.
 
 !!! Permissions nécessaires

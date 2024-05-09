@@ -8,6 +8,11 @@ order: -3
 
 # Logs de modération et de paramétrage
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Ce paramètre permet de choisir les salons où envoyer les logs, messages résumant l'activité relative au bot sur le serveur. Il en existe deux types : les logs de modération et les logs de paramétrage.
 
 !!! Permissions nécessaires

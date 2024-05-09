@@ -7,6 +7,11 @@ order: -2
 ---
 
 # Attribution de rôles par boutons
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Ce paramètre permet de créer un message dans un salon choisi, comportant des boutons, et où les membres peuvent choisir de s'attribuer des rôles préalablement paramétrés.
 
 !!! Permissions nécessaires

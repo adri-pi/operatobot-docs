@@ -8,6 +8,11 @@ order: -5
 
 # Modules OperaToBot
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Ce paramètre permet de choisir les modules de commande à activer sur votre serveur.
 
 !!! Permissions nécessaires

@@ -8,6 +8,11 @@ order: -4
 
 # Jeux OperaToBot
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Avec OperaToBot, vous trouverez de nombreux jeux qui vous permettront de vous amuser sur Discord, seul ou avec vos amis !
 
 ## Le jeu des allumettes de Nim

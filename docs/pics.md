@@ -7,6 +7,12 @@ order: -5
 ---
 
 # Recherche d'images et de GIF
+
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Envie de trouver des images ou des GIF rapidement au cours d'une discussion sur Discord ? Les commandes de recherche d'image sont parfaitement adaptées pour cela.
 
 ## Recherche d'images avec [imgur](https://imgur.com)

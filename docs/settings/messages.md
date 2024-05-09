@@ -8,6 +8,11 @@ order: -4
 
 # Messages de bienvenue et de départ
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 Ce paramètre permet de choisir le message à envoyer lors de l'arrivée ou du départ d'un membre du serveur.
 
 !!! Permissions nécessaires
