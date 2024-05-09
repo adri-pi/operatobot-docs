@@ -6,6 +6,11 @@ label: Fonctionnalités
 order: -3
 ---
 
+
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 # Fonctionnalités
 
 ## Gestion de serveur

@@ -6,6 +6,10 @@ label: Démarrer avec OperaToBot
 order: -2
 ---
 
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 # Bien démarrer avec OperaToBot
 
 ## Premières étapes

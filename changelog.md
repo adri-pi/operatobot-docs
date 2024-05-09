@@ -7,6 +7,10 @@ order: -20
 ---
 
 
+!!!danger Fermeture du service OperaToBot
+Le service OperaToBot cessera de fonctionner définitivement le 31 juillet 2024. [En savoir plus.](/shutdown.md)
+!!!
+
 # Notes de mise à jour
 Cette page contient toutes les notes de mise à jour du bot, depuis la version 1.0.0.
 

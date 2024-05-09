@@ -1,12 +1,12 @@
 ---
 
-icon: :icon-alert:
+icon: icon-alert
 label: Fermeture du service
 order: 20
 ---
 
 # Fermeture du service OperaToBot
-Plus de cinq ans après sa création, il est temps pour @OperaToBot#2537 de tirer sa révérence. 
+Plus de cinq ans après sa création, il est temps pour OperaToBot de tirer sa révérence. 
 Comme vous avez pu le constater, il n'a pas été mis à jour depuis près de deux ans, suite à un manque manifeste de temps pour le maintenir. De nombreux bugs - non corrigés - sont apparus au gré des mises à jour de Discord. Le bot est cependant resté en ligne pour ne pas impacter les serveurs l'utilisant encore. Cependant, les bugs deviennent trop nombreux ; de plus, ce projet est une charge financière pour moi, et les aléas de la vie font que je n'ai plus le temps ni la motivation pour ce projet. J'ai donc pris la décision de le fermer définitivement à partir d'aujourd'hui, avec une période de transition d'environ 2 mois.
 
 ## Ce qu'il va se passer dans les prochains mois :
